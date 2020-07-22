@@ -149,7 +149,7 @@ export class _Blank extends React.Component {
           textAlign: "center",
           verticalAlign: "baseline",
           fontSize: 20,
-          color: "#FFFFFF",
+          color: "#d91c1c",
           backgroundColor: "#FFFFFF",
           fontStyle: "normal",
           fontWeight: "normal",
