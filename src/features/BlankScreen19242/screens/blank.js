@@ -133,8 +133,10 @@ export class _Blank extends React.Component {
       >
         PR button
       </Button>
-      <Text
+      <Button
+        backgroundColor="#3366FF"
         style={{
+          width: "100%",
           marginLeft: 0,
           marginRight: 0,
           marginTop: 5,
@@ -144,11 +146,11 @@ export class _Blank extends React.Component {
           paddingTop: 5,
           paddingBottom: 5,
           overflow: "visible",
-          textAlign: "left",
+          textAlign: "center",
           verticalAlign: "baseline",
           fontSize: 20,
-          color: "#000000",
-          backgroundColor: "#ffffff",
+          color: "#FFFFFF",
+          backgroundColor: "#FFFFFF",
           fontStyle: "normal",
           fontWeight: "normal",
           borderColor: "#000000",
@@ -161,12 +163,12 @@ export class _Blank extends React.Component {
           borderRadius: 0,
           textShadow: "0pt 0pt 0pt #000000",
           textDecoration: "none",
-          textTransform: "none",
-          lineHeight: 6
+          textTransform: "none"
         }}
+        onPress={() => alert("Pressed!")}
       >
-        Sample text content
-      </Text>
+        Press me!
+      </Button>
     </View>
   )
 }
