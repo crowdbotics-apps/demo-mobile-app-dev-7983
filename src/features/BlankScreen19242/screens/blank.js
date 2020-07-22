@@ -126,7 +126,8 @@ export class _Blank extends React.Component {
           borderRadius: 0,
           textShadow: "0pt 0pt 0pt #000000",
           textDecoration: "none",
-          textTransform: "none"
+          textTransform: "none",
+          letterSpacing: 16
         }}
         onPress={() => alert("Pressed!")}
       >
