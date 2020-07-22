@@ -94,10 +94,10 @@ export class _Blank extends React.Component {
         }}
         onPress={() => alert("Pressed!")}
       >
-        Test button
+        Staging button
       </Button>
       <Button
-        backgroundColor="#3366FF"
+        backgroundColor="#394979"
         style={{
           width: "100%",
           marginLeft: 0,
@@ -112,8 +112,8 @@ export class _Blank extends React.Component {
           textAlign: "center",
           verticalAlign: "baseline",
           fontSize: 20,
-          color: "#FFFFFF",
-          backgroundColor: "#FFFFFF",
+          color: "#af3c3c",
+          backgroundColor: "#551111",
           fontStyle: "normal",
           fontWeight: "normal",
           borderColor: "#000000",
@@ -130,7 +130,7 @@ export class _Blank extends React.Component {
         }}
         onPress={() => alert("Pressed!")}
       >
-        Press me!
+        PR button
       </Button>
     </View>
   )
